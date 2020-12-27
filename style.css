@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 20% 30% 50%;
+    background-color: antiquewhite;
+}
+
+.column.sidebar {
+    background-color: rgb(0,0,81);
+}
+
+.column.label {
+    background-color: whitesmoke;
+}
+
+.column.content {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: whitesmoke;
+}
+
+form input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+}
+
+.recent-email {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 15% 65% 20%;
+    border: 2px solid rgb(232,234,246);
+    background-color: rgba(232,234,246,0.25);
+}
+
+.recent-email .emailer-pic {
+    padding: 15px;
+    
+}
+
+.recent-email .emailer-info {
+    padding: 15px;
+}
+
+.recent-email .emailer-extra {
+    padding: 15px;
+}
+
+h4.emailer-name {
+    font-weight: 100;
+    color: rgb(0,0,0,0.75);
+}
+
+p.preview-email {
+    color: rgb(0,0,0,0.75);
+    margin-top: 10px;
+}
+
+span.emailer-date {
+    float: right;
+    color: rgb(0,0,0,0.75);
+}
+
+img.emailer-image {
+    border-radius: 50%;
+}
