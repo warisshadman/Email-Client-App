@@ -6,7 +6,9 @@
 
 html {
     font-size: 12px;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    overflow: hidden;
 }
 
 .container {
@@ -77,4 +79,124 @@ span.emailer-date {
 
 img.emailer-image {
     border-radius: 50%;
+}
+
+.column.content {
+    padding: 25px;
+}
+
+.header-content {
+    
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 10% 40% 30% 20%;
+    grid-gap: 15px;
+}
+
+.emailer-email {
+    color: rgb(0,0,0,0.75);
+}
+
+.emailer-info {
+    cursor: pointer;
+}
+
+.watch-icon {
+    font-size: 14px;
+    position: absolute;
+}
+
+.date-time {
+    margin-left: 20px;
+}
+
+.header-icon {
+    font-size: 18px;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.horizontal-divider {
+    margin: 15px 0px;
+    border: 1px solid rgb(232,234,246);
+}
+
+.email-title {
+    padding-top: 15px;
+    font-size: 1.75rem;
+    font-weight: 200;
+}
+
+.email-body {
+    padding: 25px 0px;
+    line-height: 20px;
+    color: rgba(0,0,0,0.75);
+}
+
+.email-content {
+    height: 80%;
+    overflow-y: auto;
+}
+
+.email-action {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 80% 20%;
+    grid-gap: 15px;
+}
+
+.action-icon {
+    font-size: 18px;
+    padding: 0px 5px;
+    transform: rotate(300deg);
+    color: deepskyblue;
+}
+
+.attach-icon {
+    font-size: 25px;
+    padding: 0px 5px;
+    transform: rotate(45deg);
+    color: deepskyblue;
+}
+
+.action-button {
+    text-align: right;
+    cursor: pointer;
+}
+
+.compose {
+    text-align: center;
+}
+
+.compose-button {
+    margin-top: 35px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color:dodgerblue;
+    width: 70%;
+    margin-bottom: 35px;   
+    color: whitesmoke;
+    font-size: 1.5rem;
+    letter-spacing: 0.05rem;
+}
+
+
+.side-menu .side-button {
+    padding: 15px 45px;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.side-icon {
+    vertical-align: middle;
+}
+
+.side-notification {
+    float: right;
+}
+
+.side-title {
+    padding-left: 15px;
 }

@@ -1,39 +1,124 @@
 <!DOCTYPE html>
 <html en="lang">
-    <head>
-        <title>Email App Using Javascript</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <section>
-            <div class="container">
-                <div class="column sidebar"></div>
-                <div class="column label">
-                    <div class="search-box">
-                        <form>
-                            <input type="text" placeholder="Search for messages">
-                        </form>
-                    </div>
-                    <div class="recent-email">
-                        <div class="emailer-pic">
-                            <img src="https://picsum.photos/40/40" alt="" class="emailer-image">
-                        </div>
-                        <div class="emailer-info">
-                            <h4 class="emailer-name">Shadman Waris</h4>
-                            <h2 class="emailer-subject">UI designer for Oden</h2>
-                            <p class="preview-email">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla pulvinar velit vitae condimentum. </p>
-                        </div>
-                        <div class="emailer-extra">
-                            <span class="emailer-date">Jan 21</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="column content"></div>
+  <head>
+    <title>Email App Using Javascript</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="column sidebar">
+            <div class="compose">
+                <button class="compose-button">Compose</button>
             </div>
-        </section>
-    </body>
+            <div class="side-menu">
+                <div class="side-button">
+                    <ion-icon name="mail-outline" class="side-icon"></ion-icon>
+                    <span class="side-title">Inbox</span>
+                    <span class="side-notification">8</span>
+                </div>
+                <div class="side-button">
+                    <ion-icon name="star-outline" class="side-icon"></ion-icon>
+                    <span class="side-title">Favorite</span>
+                </div>
+                <div class="side-button">
+                    <ion-icon name="send-outline"></ion-icon>
+                    <span class="side-title">Sent</span>
+                </div>
+                <div class="side-button">
+                    <ion-icon name="pencil-outline"></ion-icon>
+                    <span class="side-title">Draft</span>
+                    <span class="side-notification">1</span>
+                </div>
+                <div class="side-button">
+                    <ion-icon name="trash-outline"></ion-icon>
+                    <span class="side-title">Trash</span>
+                </div>
+            </div>
+        </div>
+        <div class="column label">
+          <div class="search-box">
+            <form>
+              <input type="text" placeholder="Search for messages" />
+            </form>
+          </div>
+          <div class="recent-email">
+            <div class="emailer-pic">
+              <img
+                src="https://picsum.photos/40/40"
+                alt=""
+                class="emailer-image"
+              />
+            </div>
+            <div class="emailer-info">
+              <h4 class="emailer-name">Shadman Waris</h4>
+              <h2 class="emailer-subject">UI designer for Oden</h2>
+              <p class="preview-email">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                fringilla pulvinar velit vitae condimentum.
+              </p>
+            </div>
+            <div class="emailer-extra">
+              <span class="emailer-date">Jan 21</span>
+            </div>
+          </div>
+        </div>
+        <div class="column content">
+          <div class="header-content">
+            <div class="header-column">
+              <img
+                src="https://picsum.photos/40/40"
+                alt=""
+                class="emailer-image"
+              />
+            </div>
+            <div class="header-column">
+              <h3 class="emailer-name">Shadman Waris</h3>
+              <h4 class="emailer-email">shadmanwaris@gmail.com</h4>
+            </div>
+            <div class="header-column">
+              <ion-icon class="watch-icon" name="time-outline"></ion-icon>
+              <span class="date-time">Jan 19, 2020 10:21 PM</span>
+            </div>
+            <div class="header-column">
+              <ion-icon
+                name="arrow-undo-outline"
+                class="header-icon"
+              ></ion-icon>
+              <ion-icon name="trash-outline" class="header-icon"></ion-icon>
+              <ion-icon
+                name="ellipsis-horizontal-outline"
+                class="header-icon"
+              ></ion-icon>
+            </div>
+          </div>
+          <div class="horizontal-divider"></div>
+          <div class="email-content">
+            <h1 class="email-title">UI Designer for UI</h1>
+            <p class="email-body">
+                Hi Lorem ipsum!<br><br>
+                Duis condimentum, eros et mollis malesuada, odio urna laoreet velit, eget maximus nibh tortor sit amet ligula. Mauris dignissim, arcu vitae pellentesque ornare, nisi quam feugiat mi, a dapibus velit urna sit amet lacus. In at metus a ante vehicula varius vitae eget ligula. Fusce fringilla vestibulum orci. <br><br>
+                Thank You
+            </p>
+          </div>
+          <div class="horizontal-divider">
+          </div>
+          <div class="email-action">
+            <div class="action-column">
+              <p>Click here to Reply or Forward</p>
+            </div>
+            <div class="action-column action-button">
+                <ion-icon name="attach-outline" class="attach-icon"></ion-icon>
+                <ion-icon name="send-outline" class="action-icon"></ion-icon>
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+  </body>
 </html>
