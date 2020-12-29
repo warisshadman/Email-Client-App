@@ -1186,17 +1186,6 @@
     "email_body": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
     "date": "5/14/2020",
     "time": "8:49 PM"
-  },
-  {
-    "id": 100,
-    "first_name": "Cornall",
-    "last_name": "Ferie",
-    "email": "cferie2r@guardian.co.uk",
-    "gender": "Male",
-    "image": "http://dummyimage.com/154x100.png/ff4444/ffffff",
-    "email_subject": "Front-line system-worthy access",
-    "email_body": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
-    "date": "12/5/2020",
-    "time": "2:57 PM"
   }
+  
 ]
